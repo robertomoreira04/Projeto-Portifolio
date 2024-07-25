@@ -2,7 +2,13 @@
 const ProjectsContainer = () => {
   return <section className="projects-container">
     <h2>Projetos</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, culpa delectus? Quo impedit obcaecati quasi tenetur reprehenderit consequatur nostrum sint, facilis quae, vero iure architecto voluptate, nihil saepe pariatur tempora.
+    <p> • Lista de Tarefas 2.0: Considero meu principal projeto, que desenvolvi uma lista de tarefas totalmente funcional, contendo local storage, onde fica salvo os dados do usuário localmente. As tecnologias utilizadas foram: React.js, Typescript, SCSS e CSS Modules.
+    </p>
+
+    <p> • Myshop: Projeto de uma loja de e-commerce usando tecnologias como: Typescript, React, Styled-components, Redux. Uma loja capaz de adicionar e retirar itens do carrinho, mexendo com estados do React. 
+    </p>
+
+    <p> •  Pagina De Login: Página feita com a ferramente Vite + HTML, CSS e React. Uma página de login simulada no Frontend.
     </p>
     <a 
     href="https://github.com/robertomoreira04?tab=repositories" 
