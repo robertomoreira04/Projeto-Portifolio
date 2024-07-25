@@ -18,46 +18,46 @@ const tech = [
     icon: <DiHtml5 />,
   },
 
-  { 
+  {
     id: "css",
-    name: "CSS3", 
-    icon: <DiCss3 /> 
+    name: "CSS3",
+    icon: <DiCss3 />,
   },
 
-  { 
-    id: "js", 
-    name: "JavaScript", 
-    icon: <DiJsBadge /> 
+  {
+    id: "js",
+    name: "JavaScript",
+    icon: <DiJsBadge />,
   },
 
-  { 
-    id: "ts", 
-    name: "Typescript", 
-    icon: <SiTypescript /> 
+  {
+    id: "ts",
+    name: "Typescript",
+    icon: <SiTypescript />,
   },
 
-  { 
-    id: "react", 
-    name: "React", 
-    icon: <DiReact /> 
+  {
+    id: "react",
+    name: "React",
+    icon: <DiReact />,
   },
 
-  { 
-    id: "node", 
-    name: "Node.js", 
-    icon: <DiNodejsSmall /> 
+  {
+    id: "node",
+    name: "Node.js",
+    icon: <DiNodejsSmall />,
   },
 
-  { 
-    id: "sass", 
-    name: "Sass", 
-    icon: <DiSass /> 
+  {
+    id: "sass",
+    name: "Sass",
+    icon: <DiSass />,
   },
 
-  { 
-    id: "tailwind", 
-    name: "Tailwind CSS", 
-    icon: <SiTailwindcss /> 
+  {
+    id: "tailwind",
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss />,
   },
 ];
 
@@ -68,7 +68,7 @@ const TechContainer = () => {
       <div className="tech-grid">
         {tech.map((tech) => (
           <div className="tech-card" id={tech.id} key={tech.id}>
-            {tech.icon} 
+            {tech.icon}
             <div className="tech-info">
               <h3>{tech.name}</h3>
             </div>
